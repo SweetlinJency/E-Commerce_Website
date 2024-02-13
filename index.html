@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Shop</title>
+	<!-- css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <!-- navbar design -->
+        <nav class="navbar bg-light navbar-expand-md fixed-top" id="topheader">
+            <div class="container navbar-inner">
+                <div class="col-md-4">
+                    <a href="#" class="navbar-brand">
+                        <img src="images/logo.png" alt="shoelogo" width="80px" class="rounded-pill"><span class="h5">SHOES SHOP</span>
+                    </a>
+                </div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNavbar" aria-controls="collapseNavbar" aria-label="toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+                <div class="col-md-8 collapse navbar-collapse" id="collapseNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item fw-bold active"><a href="#home" class="nav-link">Home</a></li>
+						<li class="nav-item fw-bold"><a href="#service" class="nav-link">Service</a></li>
+                        <li class="nav-item fw-bold"><a href="#about" class="nav-link">About</a></li>
+						<li class="nav-item fw-bold"><a href="#shop" class="nav-link">Shop</a></li>
+						<li class="nav-item fw-bold"><a href="#contact" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	<!-- End navbar -->
+       
+	   
+    <!-- banner-carousel -->
+    <!-- home section -->
+        <div id="home" class="carousel slide" data-bs-ride="carousel">
+            <!-- indicater dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#home" data-bs-slide-to="0" class="active" area-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#home" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#home" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- slideshow carousel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="bg-img img-fluid" style="background-image: url('images/banner/b1.webp');background-repeat: no-repeat;height:100vh;background-size: cover;">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.5); height: 100vh;">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <div class="text-white text-center">
+                                    <h1 class="slide-heading heading_72 animate__animated animate__fadeInUp" data-animation="animate__animated animate__fadeInUp">Welcome to Shoes Emporium!</h1>
+                                    <p>Step into Style and Comfort! Explore Our Latest Arrivals</p>
+                                    <a href="#about" role="button" class="btn btn-outline-light btn-lg">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-img" style="background-image: url('images/banner/b2.webp');background-repeat: no-repeat;height:100vh;background-size: cover;">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4); height: 100vh;">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <div class="text-white text-center">
+                                    <h1>Unleash Your Adventurous Sole!</h1>
+                                    <p>Where Comfort Meets Adventure!</p>
+                                    <a href="#about" role="button" class="btn btn-outline-light btn-lg">Shop Adventure</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="bg-img" style="background-image: url('images/banner/b3.webp');background-repeat: no-repeat;height:100vh;background-size: cover;">
+                        <div class="mask" style="background-color: rgba(0, 0, 0, 0.4); height: 100vh;">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <div class="text-white text-center">
+                                    <h1>Exclusive Offers Await You!</h1>
+                                    <p>Exclusive Deals Just for You! </p>
+                                    <a href="#about" role="button" class="btn btn-outline-light btn-lg">Shop Deals</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- left and right control icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+	<!-- End home section-->
+
+
+    <!-- Service Section -->
+        <div class="container pt-5" id="service">
+            <div class="row homepg">
+				<div class="display-6 head-start fw-normal pb-4">
+					<span class="fw-bold">|</span> Service
+				</div>
+                <div class="col-md-3 pb-5">
+                    <div class="p-5 shadow">
+                        <div class="h1 text-center service-icon"><i class="bi bi-truck bi-lg"></i></div>
+                        <h2 class="h5 mt-4 text-center">Free Delivery</h2>
+                    </div>
+                </div>
+                <div class="col-md-3 pb-5">
+                    <div class="h-100 py-5 services-icon-wap shadow">
+                        <div class="h1 text-center service-icon"><i class="bi bi-arrow-repeat bi-lg"></i></div>
+                        <h2 class="h5 mt-4 text-center">Return Policy</h2>
+                    </div>
+                </div>
+                <div class="col-md-3 pb-5">
+                    <div class="h-100 py-5 services-icon-wap shadow">
+                        <div class="h1 text-center service-icon"><i class="bi bi-percent bi-lg"></i></div>
+                        <h2 class="h5 mt-4 text-center">Limited Discounts</h2>
+                    </div>
+                </div>
+                <div class="col-md-3 pb-5">
+                    <div class="h-100 py-5 services-icon-wap shadow">
+                        <div class="h1 text-center service-icon"><i class="bi bi-gift bi-lg"></i></div>
+                        <h2 class="h5 mt-4 text-center">Special Gifts</h2>
+                    </div>
+                </div>
+            </div>
+		</div>
+	<!-- End service section -->
+			
+			
+    <!-- about section -->
+        <section class="bg-img pt-5" style="background-color: #fff6fc;" id="about">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 about">
+                            <div class="display-6 head-start fw-normal pb-4">
+								<span class="fw-bold">|</span> About
+							</div>
+                            <h4>We are loyal with our trusted customer</h4>
+                            <p>At Shoes Shop , we believe that every step tells a story. Our journey began with a passion for footwear, a commitment to quality, and a vision to redefine the way you experience shoes. Step into a world where style meets comfort, and every pair narrates a tale of craftsmanship and innovation.</p>
+                         </div>
+                        <div class="col-md-6">
+                            <img src="images/shoe.png" alt="shoe" height="500px" width="500px" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+        </section>
+	<!-- End about Section-->
+		
+		
+	<!-- Clients Section -->
+        <!--Carousel Wrapper-->
+			<section class="customer-logos slider pt-5 pb-5">
+				<div class="slide"><img src="images/clients/client-1.png"></div>
+				<div class="slide"><img src="images/clients/client-2.png"></div>
+				<div class="slide pt-1"><img src="images/clients/client-3.png"></div>
+				<div class="slide"><img src="images/clients/client-4.png"></div>
+				<div class="slide"><img src="images/clients/client-5.png"></div>
+				<div class="slide"><img src="images/clients/client-6.png"></div>
+				<div class="slide pt-3"><img src="images/clients/client-7.png"></div>
+			</section>
+		<!-- End Carousel Wrapper -->
+	<!-- End Clients Section -->
+			
+
+    <!-- shop section -->
+		<div class="container" id="shop">
+            <div class="row">
+                <div class="display-6 head-start fw-normal pb-4">
+					<span class="fw-bold">|</span> Shop
+				</div>
+                <div>
+                    <div class="row">
+                        <div class="col-md-4 shoe-collection">
+                            <div class="shadow thumbnail">
+                                <img src="images/shopsection/men.webp" alt="men" width="405px" height="539" class="img-fluid  pic1">
+                                <img src="images/shopsection/men1.webp" alt="men" width="405px" height="539" class="img-fluid  pic2">
+								<div class="thumbnail-bg"></div>
+								<h4>Men's Shoes</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="shadow thumbnail">
+                                <img src="images/shopsection/women.webp" alt="women" width="405px" height="539" class="img-fluid  pic1">
+                                <img src="images/shopsection/women1.webp" alt="women" width="405px" height="539" class="img-fluid  pic2">
+								<div class="thumbnail-bg"></div>
+								<h4>women's Shoes</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="shadow thumbnail">
+                                <img src="images/shopsection/kids.webp" alt="kids" width="405px" height="539" class="img-fluid  pic1">
+                                <img src="images/shopsection/kids1.webp" alt="kids" width="405px" height="539" class="img-fluid  pic2">
+								<div class="thumbnail-bg"></div>
+								<h4>Kid's Shoes</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+			<!-- products carousel -->
+				<div class="d-flex align-items-center justify-content-center deal-style">
+                    <h5>Deal of the day</h5>
+                </div>
+			<div class="row"> 
+                <!--Controls-->
+                <div class="col-1 align-self-center">
+                    <a class="h1 p-3" href="#templatemo-slide-brand" role="button" data-bs-slide="prev">
+                        <i class="bi bi-arrow-left-circle-fill left-icon"></i>
+                    </a>
+                </div>
+                <!--End Controls-->
+                
+                <!--Carousel Wrapper-->
+                <div class="col-10 p-3">
+                  <div class="carousel-inner product-links-wap" role="listbox">
+                    <div class="carousel slide carousel-multi-item" id="templatemo-slide-brand" data-bs-ride="carousel">        
+                    <!--First slide-->
+                    <div class="carousel-item">
+						<div class="row">
+							<div class="col-3 p-3">
+                                <a href="#"><img class="img-fluid" src="images/shop/deal1.webp" alt="m1" width="300px"></a>
+                                <p>Men Leather Casual Slip-on walking Shoes</p>
+                            </div>
+							<div class="col-3 p-3">
+                                <a href="#"><img class="img-fluid" src="images/shop/deal2.webp" width="300px" alt="m2"></a>
+                                <p>Men Sneakers Fashion Spring Outdoor</p>
+                            </div>
+                            <div class="col-3 p-3">
+                                 <a href="#"><img class="img-fluid" src="images/shop/deal3.webp" width="300px" alt="w1"></a>
+                                 <p>Kids Mauve Solid Regular Sneakers</p>
+                            </div>
+                            <div class="col-3 p-3">
+                                  <a href="#"><img class="img-fluid" src="images/shop/deal4.webp" width="300px" alt="k1"></a>
+                                  <p>Women Shoe / Fuzzy Sneakers Spring Fashion</p>
+							</div>
+                         </div>
+                     </div>
+                     <!--End First slide-->
+					 
+                     <!--Second slide-->
+                     <div class="carousel-item">
+                         <div class="row">
+                             <div class="col-3 p-3">
+							   	  <a href="#"><img class="img-fluid brand-img" src="images/shop/deal5.webp" width="300px" alt="m3"></a>
+                                  <p>Men's Flat Low Top, Comfortable Slip-On Loafer</p>
+                             </div>
+                             <div class="col-3 p-3">
+                                  <a href="#"><img class="img-fluid brand-img" src="images/shop/deal6.webp" width="300px" alt="w2"></a>
+                                  <p>Birde Women's Stylish Comfrotable Casual Shoes</p>
+                             </div>
+                             <div class="col-3 p-3">
+                                  <a href="#"><img class="img-fluid brand-img" src="images/shop/deal7.webp" width="300px" alt="k2"></a>
+                                  <p>lightweight comfort walking daily Use shoes</p>
+                             </div>
+                             <div class="col-3 p-3">
+                                  <a href="#"><img class="img-fluid brand-img" src="images/shop/deal8.webp" width="300px" alt="k3"></a>
+                                  <p>Kids Casual Sneaker with Lightweight Canvas</p>
+                             </div>
+                         </div>
+                     </div>
+                     <!--End Second slide-->
+
+                     <!--Third slide-->
+                     <div class="carousel-item active">
+                          <div class="row">
+                              <div class="col-3 p-3">
+                                   <a href="#"><img class="img-fluid brand-img" src="images/shop/deal9.webp" width="300px" alt="w3"></a>
+                                   <p>Layasa Comfotable Lightweight Casual Shoe</p>
+                              </div>
+                              <div class="col-3 p-3">
+                                   <a href="#"><img class="img-fluid brand-img" src="images/shop/deal10.webp" width="300px" alt="w4"></a>
+                                   <p>Pro Performance Fashion walking Sneaker</p>
+                              </div>
+                              <div class="col-3 p-3">
+                                   <a href="#"><img class="img-fluid brand-img" src="images/shop/deal11.webp" width="300px" alt="m4"></a>
+                                   <p>Comfort Casual Shoes for Men Walking, Loafers</p>
+                              </div>
+                              <div class="col-3 p-3">
+                                   <a href="#"><img class="img-fluid brand-img" src="images/shop/deal12.webp" width="300px" alt="m5"></a>
+                                   <p>Puma Rider "future Vintage" Lace Up Mens Purple</p>
+                              </div>
+                           </div>
+                      </div>
+                      <!--End Third slide-->
+                    </div>
+                    <!--End Slides-->
+                 </div>
+              </div>
+              <!--End Carousel Wrapper-->
+			
+              <!--Controls-->
+				<div class="col-1 p-3 align-self-center">
+                   <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="next">
+                      <i class="bi bi-arrow-right-circle-fill right-icon"></i>
+                   </a>
+                </div>
+			  <!--End Controls-->
+			</div>
+		</div>
+		 <!--End shop section-->
+				<button onclick="scrollToTop()" id="backToTopBtn" title="Go to top" class="fixed">
+					<i class="bi bi-arrow-up-short"></i>
+				</button>
+            
+      
+	  
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+          <div class="section-title">
+            <div class="display-6 head-start fw-normal pb-4">
+                <span class="fw-bold">|</span> Contact
+            </div>
+          </div>
+		  
+          <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
+              <div class="info-box">
+                <i class="bi bi-geo-alt"></i>
+                <h3>Our Address</h3>
+                <p>A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="info-box">
+                <i class="bi bi-envelope"></i>
+                <h3>Email Us</h3>
+                <p>info@gmail.com<br>shoesshop@gmail.com</p>
+              </div>
+            </div>
+            <div class="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="info-box">
+                <i class="bi bi-telephone"></i>
+                <h3>Call Us</h3>
+                <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-xl-9 col-lg-12 mt-4">
+				<!-- contact form -->
+                <form autocomplete="off" id="contactForm" action="#" method="post" onsubmit="return validateForm()" class="email-form">
+					<div class="row">
+						<label for="name">Your Name</label><br>
+						<input type="text" id="name" name="name" onblur="validateName()"><br>
+						<span id="nameError" class="error"></span>
+					</div>
+					<div class="row">
+						<label for="email">Your Email</label><br>
+						<input type="email" id="email" name="email" onblur="validateEmail()"><br>
+						<span id="emailError" class="error"></span>
+					</div>
+					<div class="row">
+						<label for="message">Message</label><br>
+						<textarea cols="5" rows="11" id="message" name="message" onblur="validateMessage()"></textarea><br>
+						<span id="messageError" class="error"></span><br>
+					</div>
+					<div class="row">
+						<button type="submit" class="sub-btn" value="Submit">Submit</button>
+					</div>
+				</form>
+				<!-- End Contact form -->
+            </div>
+          </div>
+        </div>
+      </section>
+	<!-- End Contact Section -->
+  
+      
+    <!-- footer section -->
+        <footer style="background-color: #212934; color: #CFD6E1;">
+            <div class="container">
+                <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom border-secondary">
+                    <div>
+                        Get connected with us on social networks:
+                    </div>
+                    <div>
+                        <a href="#" class="text-reset me-4"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-reset me-4"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-reset me-4"><i class="bi bi-google"></i></a>
+                        <a href="#" class="text-reset me-4"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-reset me-4"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="text-reset me-4"><i class="bi bi-github"></i></a>
+                    </div>
+                </section>
+                <section>
+                    <div class="row mt-5 mb-4">
+                        <div class="col-md-3">
+                            <h6 class="text-uppercase fw-bold mb-4">
+                                <img src="images/logo.png" alt="logo" width="40px" class="logo"> Shoes Shop
+                            </h6>
+                            <p>We are on a mission to bring you the latest trends and timeless classics, all in one place. Our curated collection is a testament to our commitment to quality, style, and affordability.
+                            </p>
+                        </div>
+                          <div class="col-md-2 foot">
+                            <h6 class="text-uppercase fw-bold mb-5">Shoes Collection</h6>
+                            <p><a href="#" class="text-decoration-none">Women's Shoes</a></p>
+                            <p><a href="#" class="text-decoration-none">Men's Shoes</a></p>
+                            <p><a href="#" class="text-decoration-none">Kids' Shoes</a></p>
+                            <p><a href="#" class="text-decoration-none">Athletic & Sporty</a></p>
+                            <p><a href="#" class="text-decoration-none">Casual & Everyday</a></p>
+                            <p><a href="#" class="text-decoration-none">Formal & Dress Shoes</a></p>
+                            <p><a href="#" class="text-decoration-none">Seasonal Favorites</a></p>
+                          </div>
+                          <div class="col-md-2 foot">
+                            <h6 class="text-uppercase fw-bold mb-5">Customer Service</h6>
+                            <p><a href="#" class="text-decoration-none">Contact Us</a></p>
+                            <p><a href="#" class="text-decoration-none">FAQs</a></p>
+                            <p><a href="#" class="text-decoration-none">Size Guide</a></p>
+                            <p><a href="#" class="text-decoration-none">Shipping Information</a></p>
+                            <p><a href="#" class="text-decoration-none">Privacy Policy</a></p>
+                            <p><a href="#" class="text-decoration-none">Terms & Conditions</a></p>
+                            </div>
+                         <div class="col-md-2 foot">
+                            <h6 class="text-uppercase fw-bold mb-5">About</h6>
+                            <p><a href="#" class="text-decoration-none">Our Story</a></p>
+                            <p><a href="#" class="text-decoration-none">Mission & Values</a></p>
+                            <p><a href="#" class="text-decoration-none">Craftsmanship</a></p>
+                            <p><a href="#" class="text-decoration-none">Sustainability</a></p>
+                            </div>
+                         <div class="col-md-3">
+                            <h6 class="text-uppercase fw-bold mb-5">Contact</h6>
+                            <p><i class="bi bi-geo-alt-fill"></i> 123 Consectetur at ligula 10660</p>
+                            <p><i class="bi bi-telephone-fill"></i> 010-020-0340</p>
+                            <p><i class="bi bi-envelope-fill"></i> ShoesShop@company.com</p>
+                            </div>
+                    </div>
+                </section>
+            </div>
+            <div class="text-center p-3" style="background-color: #1D242D;">
+                © 2024 Copyright:
+                <a class="text-reset text-decoration-none fw-bold" href="#">ShoesShop.com</a>
+              </div>
+        </footer>
+	<!-- end footer section -- >
+
+     <!-- JS Files -->
+		<script src="assets/js/jquery.min.js"></script>
+    	<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/slick.js"></script> 
+		
+		<script src="script.js"></script>
+</body>
+</html>
